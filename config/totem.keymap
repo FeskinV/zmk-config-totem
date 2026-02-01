@@ -66,10 +66,10 @@
         Legendary {
             label = "TOTEM Choc";
             bindings = <
-         &lt 4 Q       &lt 3 W       &lt 2 E       &lt 1 R                 &hrm TILDE T    &kp Y      &lt 1 U             &lt 2 I        &lt 3 O  &lt 4 P
-         &hrm LC(A) A  &kp S         &kp D         &hrm LEFT_SHIFT F       &kp G           &kp H      &hrm RIGHT_SHIFT J  &kp K          &kp L    &kp SEMICOLON
-&kp TAB  &hrm LC(Z) Z  &hrm LC(X) X  &hrm LC(C) C  &hrm LC(V) V            &kp B           &kp N      &kp M               &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
-                                     &kp LEFT_ALT  &hrm LEFT_CONTROL LBKT  &kp SPACE       &kp ENTER  &hrm LEFT_WIN RBKT  &kp BACKSPACE
+         &lt 4 Q              &lt 3 W           &lt 2 E            &lt 1 R                 &hrm TILDE T    &kp Y      &lt 1 U             &lt 2 I        &lt 3 O  &lt 4 P
+         &hrm LC(K_SELECT) A  &kp S             &kp D              &hrm LEFT_SHIFT F       &kp G           &kp H      &hrm RIGHT_SHIFT J  &kp K          &kp L    &kp SEMICOLON
+&kp TAB  &hrm LC(K_UNDO) Z    &hrm LC(K_CUT) X  &hrm LC(K_COPY) C  &hrm LC(K_PASTE) V      &kp B           &kp N      &kp M               &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
+                                                &kp LEFT_ALT       &hrm LEFT_CONTROL LBKT  &kp SPACE       &kp ENTER  &hrm LEFT_WIN RBKT  &kp BACKSPACE
             >;
         };
 
@@ -95,10 +95,10 @@
 
         navi {
             bindings = <
-        &trans    &trans    &trans     &trans          &trans    &kp HOME  &kp PAGE_DOWN  &kp PG_UP   &kp END    &trans
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT  &kp K_COPY
-&trans  &trans    &trans    &trans     &trans          &trans    &trans    &kp K_UNDO     &kp K_REDO  &trans     &kp K_CUT   &trans
-                            &trans     &trans          &trans    &trans    &trans         &trans
+        &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans     &trans
+        &trans  &trans  &trans  &trans  &trans    &trans     &kp LEFT  &kp UP    &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &kp DOWN  &trans     &trans  &trans
+                        &trans  &trans  &trans    &kp ENTER  &trans    &trans
             >;
         };
 
