@@ -59,6 +59,11 @@
             bindings = <&kp LS(LG(RIGHT))>;
             key-positions = <33 36>;
         };
+
+        Language_Shift+Alt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <34 35>;
+        };
     };
 
     behaviors {
