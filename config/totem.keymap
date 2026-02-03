@@ -119,7 +119,7 @@
         &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE        &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp RIGHT_BRACE
         &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT   &kp CARET      &kp RIGHT_BRACKET
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_PARENTHESIS  &kp AMPERSAND    &kp ASTERISK  &kp BACKSLASH  &kp RIGHT_PARENTHESIS  &kp QUESTION
-                        &trans  &trans  &trans    &kp DOT               &kp GRAVE        &kp COMMA
+                        &trans  &trans  &trans    &kp COMMA             &kp GRAVE        &kp DOT
             >;
         };
 
