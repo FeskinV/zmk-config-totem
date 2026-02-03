@@ -54,6 +54,11 @@
             bindings = <&mo 4>;
             key-positions = <0 9>;
         };
+
+        Ctrl+Win+Right {
+            bindings = <&kp LS(LG(RIGHT))>;
+            key-positions = <33 36>;
+        };
     };
 
     behaviors {
@@ -101,10 +106,10 @@
         math {
             label = "MATH";
             bindings = <
-        &kp ASTERISK  &kp N1        &kp N2          &kp N3   &kp PLUS     &trans  &trans                  &trans    &trans                    &trans
-        &kp N0        &kp NUMBER_4  &kp N5          &kp N6   &kp MINUS    &trans  &hrm LG(LS(LEFT)) LEFT  &kp UP    &hrm LG(LS(RIGHT)) RIGHT  &trans
-&trans  &kp SLASH     &kp N7        &kp N8          &kp N9   &kp EQUAL    &trans  &trans                  &kp DOWN  &trans                    &trans  &trans
-                                    &kp LEFT_SHIFT  &kp DOT  &kp COMMA    &trans  &trans                  &trans
+        &kp ASTERISK  &kp N1        &kp N2          &kp N3   &kp PLUS     &trans  &trans    &trans    &trans     &trans
+        &kp N0        &kp NUMBER_4  &kp N5          &kp N6   &kp MINUS    &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans
+&trans  &kp SLASH     &kp N7        &kp N8          &kp N9   &kp EQUAL    &trans  &trans    &kp DOWN  &trans     &trans  &trans
+                                    &kp LEFT_SHIFT  &kp DOT  &kp COMMA    &trans  &trans    &trans
             >;
         };
 
