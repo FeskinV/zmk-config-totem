@@ -101,10 +101,10 @@
         Legendary {
             label = "TOTEM Choc";
             bindings = <
-                   &kp Q                &kp W             &lt 2 E            &kp R                   &hrm GRAVE T    &kp Y      &kp U               &lt 2 I        &kp O    &kp P
-                   &hrm LC(K_SELECT) A  &kp S             &lt 1 D            &hrm LEFT_SHIFT F       &kp G           &kp H      &hrm RIGHT_SHIFT J  &lt 1 K        &kp L    &kp SEMICOLON
-&hrm CAPSLOCK TAB  &hrm LC(K_UNDO) Z    &hrm LC(K_CUT) X  &hrm LC(K_COPY) C  &hrm LC(K_PASTE) V      &kp B           &kp N      &kp M               &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
-                                                          &kp LEFT_ALT       &hrm LEFT_CONTROL LBKT  &kp SPACE       &kp ENTER  &hrm LEFT_WIN RBKT  &kp BACKSPACE
+                   &kp Q            &kp W         &lt 2 E        &kp R                   &hrm GRAVE T    &kp Y      &kp U               &lt 2 I        &kp O    &kp P
+                   &hrm K_SELECT A  &kp S         &lt 1 D        &hrm LEFT_SHIFT F       &kp G           &kp H      &hrm RIGHT_SHIFT J  &lt 1 K        &kp L    &kp SEMICOLON
+&hrm CAPSLOCK TAB  &hrm K_UNDO Z    &hrm K_CUT X  &hrm K_COPY C  &hrm K_PASTE V          &kp B           &kp N      &kp M               &kp COMMA      &kp DOT  &kp FSLH       &kp SQT
+                                                  &kp LEFT_ALT   &hrm LEFT_CONTROL LBKT  &kp SPACE       &kp ENTER  &hrm LEFT_WIN RBKT  &kp BACKSPACE
             >;
         };
 
