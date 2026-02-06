@@ -31,27 +31,27 @@
         };
 
         layer_0 {
-            bindings = <&mo 0>;
+            bindings = <&tog 0>;
             key-positions = <4 5>;
         };
 
         layer_1 {
-            bindings = <&mo 1>;
+            bindings = <&tog 1>;
             key-positions = <3 6>;
         };
 
         layer_2 {
-            bindings = <&mo 2>;
+            bindings = <&tog 2>;
             key-positions = <2 7>;
         };
 
         layer_3 {
-            bindings = <&mo 3>;
+            bindings = <&tog 3>;
             key-positions = <1 8>;
         };
 
         layer_4 {
-            bindings = <&mo 4>;
+            bindings = <&tog 4>;
             key-positions = <0 9>;
         };
 
@@ -114,36 +114,36 @@
            &kp TILDE      &kp EXCLAMATION  &kp AT       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp ASTERISK  &kp N1  &kp N2         &kp N3  &kp PLUS
            &kp PIPE       &kp DOLLAR       &kp PERCENT  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp N0        &kp N4  &kp N5         &kp N6  &kp MINUS
 &kp GRAVE  &kp BACKSLASH  &kp AMPERSAND    &kp CARET    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp SLASH     &kp N7  &kp N8         &kp N9  &kp EQUAL  &kp UNDERSCORE
-                                           &kp HASH     &trans                &kp LEFT                 &kp RIGHT     &trans  &kp BACKSPACE
+                                           &kp HASH     &none                 &kp LEFT                 &kp RIGHT     &none   &kp BACKSPACE
             >;
         };
 
         symb {
             label = "SYMB";
             bindings = <
-        &trans         &kp EXCLAMATION  &trans             &kp HASH              &trans                   &kp ASTERISK   &kp N1  &kp N2         &kp N3  &kp PLUS
-        &trans         &kp SEMICOLON    &kp PERCENT        &kp COLON             &trans                   &kp N0         &kp N4  &kp N5         &kp N6  &kp MINUS
-&trans  &kp BACKSLASH  &kp QUESTION     &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LS(SLASH)  &kp N7  &kp N8         &kp N9  &kp EQUAL  &kp UNDERSCORE
-                                        &kp DOUBLE_QUOTES  &trans                &kp LEFT                 &kp RIGHT      &trans  &kp BACKSPACE
+       &none          &kp EXCLAMATION  &none              &kp HASH              &none                    &kp ASTERISK   &kp N1  &kp N2         &kp N3  &kp PLUS
+       &none          &kp SEMICOLON    &kp PERCENT        &kp COLON             &none                    &kp N0         &kp N4  &kp N5         &kp N6  &kp MINUS
+&none  &kp BACKSLASH  &kp QUESTION     &none              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LS(SLASH)  &kp N7  &kp N8         &kp N9  &kp EQUAL  &kp UNDERSCORE
+                                       &kp DOUBLE_QUOTES  &none                 &kp LEFT                 &kp RIGHT      &none   &kp BACKSPACE
             >;
         };
 
         navi {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans     &trans    &trans    &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &trans     &kp LEFT  &kp UP    &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans    &kp DOWN  &trans     &trans  &trans
-                        &trans  &trans  &trans    &kp ENTER  &trans    &trans
+       &none  &none  &none  &none  &none    &none  &none     &none     &none      &none
+       &none  &none  &none  &none  &none    &none  &kp LEFT  &kp UP    &kp RIGHT  &none
+&none  &none  &none  &none  &none  &none    &none  &none     &kp DOWN  &none      &none  &none
+                     &none  &none  &none    &none  &none     &none
             >;
         };
 
         func {
             label = "ADJU";
             bindings = <
-        &kp F1  &kp F2   &kp F3   &kp F4   &trans    &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &out OUT_TOG  &trans
-        &kp F5  &kp F6   &kp F7   &kp F8   &trans    &trans      &kp RSHIFT  &kp RCTRL   &kp RALT      &kp RGUI
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans      &trans      &trans      &trans        &trans    &trans
-                         &trans   &trans   &trans    &trans      &trans      &trans
+       &kp F1  &kp F2   &kp F3   &kp F4   &none    &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &out OUT_TOG  &none
+       &kp F5  &kp F6   &kp F7   &kp F8   &none    &none       &none       &none       &none         &none
+&none  &kp F9  &kp F10  &kp F11  &kp F12  &none    &none       &none       &none       &none         &none  &none
+                        &none    &none    &none    &none       &none       &none
             >;
         };
     };
