@@ -121,10 +121,10 @@
         symb {
             label = "SYMB";
             bindings = <
-        &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &trans    &kp ASTERISK   &kp N1  &kp N2         &kp N3  &kp PLUS
-        &trans  &trans           &trans       &trans    &trans    &kp N0         &kp N4  &kp N5         &kp N6  &kp MINUS
-&trans  &trans  &trans           &trans       &trans    &trans    &kp LS(SLASH)  &kp N7  &kp N8         &kp N9  &kp EQUAL  &kp UNDERSCORE
-                                 &trans       &trans    &trans    &kp RIGHT      &trans  &kp BACKSPACE
+        &trans         &kp EXCLAMATION  &trans             &kp HASH              &trans                   &kp ASTERISK   &kp N1  &kp N2         &kp N3  &kp PLUS
+        &trans         &kp SEMICOLON    &kp PERCENT        &kp COLON             &trans                   &kp N0         &kp N4  &kp N5         &kp N6  &kp MINUS
+&trans  &kp BACKSLASH  &kp QUESTION     &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LS(SLASH)  &kp N7  &kp N8         &kp N9  &kp EQUAL  &kp UNDERSCORE
+                                        &kp DOUBLE_QUOTES  &trans                &kp LEFT                 &kp RIGHT      &trans  &kp BACKSPACE
             >;
         };
 
