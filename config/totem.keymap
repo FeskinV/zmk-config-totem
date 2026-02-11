@@ -103,7 +103,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Divine {
+        The_Divine_Keyboard {
             label = "TOTEM Choc";
             bindings = <
                    &kp Q         &kp W         &lt 2 E       &hrm LG(R) R            &hrm GRAVE T    &kp Y      &kp U               &lt 2 I               &kp O                  &kp P
