@@ -101,7 +101,7 @@
         Legendary {
             label = "TOTEM Choc";
             bindings = <
-                   &kp Q         &kp W         &lt 2 E       &kp R                   &hrm GRAVE T    &kp Y      &kp U               &lt 2 I               &kp O                  &kp P
+                   &kp Q         &kp W         &lt 2 E       &hrm LG(R) R            &hrm GRAVE T    &kp Y      &kp U               &lt 2 I               &kp O                  &kp P
                    &hrm LC(A) A  &kp S         &lt 1 D       &hrm LEFT_SHIFT F       &kp G           &kp H      &hrm RIGHT_SHIFT J  &lt 1 K               &kp L                  &hrm COLON SEMICOLON
 &hrm CAPSLOCK TAB  &hrm LC(Z) Z  &hrm LC(X) X  &hrm LC(C) C  &hrm LC(V) V            &kp B           &kp N      &kp M               &hrm LESS_THAN COMMA  &hrm GREATER_THAN DOT  &hrm QUESTION FSLH    &hrm DOUBLE_QUOTES SQT
                                                &kp LEFT_ALT  &hrm LEFT_CONTROL LBKT  &kp SPACE       &kp ENTER  &hrm LEFT_WIN RBKT  &kp BACKSPACE
