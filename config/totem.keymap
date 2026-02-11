@@ -64,6 +64,11 @@
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <34 35>;
         };
+
+        Double_quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <32 37>;
+        };
     };
 
     behaviors {
